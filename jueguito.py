@@ -25,7 +25,7 @@ while vidas > 0:
 
     if intento in palabra:
         letras_adivinadas.append(intento)
-        print("✅ Correcto")
+        print("Correcto")
     else:
         vidas -= 1
         print(" Incorrecto")
