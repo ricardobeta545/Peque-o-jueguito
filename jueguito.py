@@ -18,7 +18,7 @@ while vidas > 0:
     print("\nPalabra:", progreso)
 
     if "_" not in progreso:
-        print("🎉 Ganaste")
+        print(" Ganaste")
         break
 
     intento = input("Ingresa una letra: ").lower()
@@ -28,9 +28,9 @@ while vidas > 0:
         print("✅ Correcto")
     else:
         vidas -= 1
-        print("❌ Incorrecto")
+        print(" Incorrecto")
         print("Vidas:", vidas)
 
 if vidas == 0:
-    print("💀 Perdiste")
+    print(" Perdiste")
     print("La palabra era:", palabra)
